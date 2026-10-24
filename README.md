@@ -37,6 +37,6 @@ Abre `index.html` directamente en el navegador para visualizar el sitio web.
 
 ## Autor
 
-Proyecto académico de desarrollo web.
-Emmanuel Gutierrez Chona (https://github.com/chona12-desarrolllador)
+Proyecto académico de desarrollo web.  
+Emmanuel Gutierrez Chona (https://github.com/chona12-desarrolllador)  
 José Ricardo Bermeo (https://github.com/JossricBermu)
