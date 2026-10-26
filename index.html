@@ -80,7 +80,7 @@
         </section>
 
         <!-- Sección de contacto -->
-        <section id="contacto" style="background-color: #9db9c4; padding: 30px 20px;">
+        <section id="contacto" style="padding: 30px 20px;">
             <h2 style="text-align: center; padding: 20px; margin: 0;">Contacto</h2>
             <div style="display: flex; gap: 40px; justify-content: center; align-items: center; flex-wrap: wrap; padding: 20px;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
@@ -100,14 +100,18 @@
                     </div>
                 </div>
 
-                <div style="flex: 1; min-width: 300px; max-width: 500px; height: 300px; background: linear-gradient(135deg, #d8e5ea, #b0c8d1); border: 2px solid #ffffff; border-radius: 12px; display: flex; align-items: center; justify-content: center; text-align: center; color: #1f2d33; font-weight: bold; font-size: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
-                    Mapa de ubicación
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15864.255925231375!2d-75.59373571284182!3d6.2553016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290273129325%3A0x6687d0d29c14ce12!2sCentro%20De%20Servicios%20y%20Gesti%C3%B3n%20Empresarial%20-%20Complejo%20Central%20-%20SENA!5e0!3m2!1ses!2sco!4v1792979662702!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
+
+                <!-- <div style="flex: 1; min-width: 300px; max-width: 500px; height: 300px; background: linear-gradient(135deg, #d8e5ea, #b0c8d1); border: 2px solid #ffffff; border-radius: 12px; display: flex; align-items: center; justify-content: center; text-align: center; color: #1f2d33; font-weight: bold; font-size: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+                    Mapa de ubicación
+                </div> -->
             </div>
         </section>
 
 
-        <section id="login" style="padding: 40px 20px 60px; background-color: #f3f7f8;">
+        <section id="login" style="padding: 40px 20px 60px; background-color: #9db9c4;">
             <h2 style="text-align: center; margin-bottom: 25px;">Iniciar sesión</h2>
 
             <div style="max-width: 420px; margin: 0 auto; background-color: #fff; border-radius: 12px; padding: 30px 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
@@ -169,35 +173,30 @@
 
         </div>
     </section>
-<!-- Pie de página -->
-        <section style="padding: 40px 20px 30px; background-color: #f3f7f8; text-align: center; border-top: 1px solid #d7e1e4;">
-
-            <!-- Logo igual al del header -->
-            <div style="display: flex; align-items: center; justify-content: center; gap: 5px; margin-bottom: 10px;">
-                <span style="font-size: 23px;">🎬</span>
-                <span style="font-size: 23px; font-weight: bold;">VIDEO PROD.</span>
-            </div>
-
-            <p style="margin: 0; font-size: 14px; color: #333;">
-                Todos los derechos reservados.
-            </p>
-
-            <!-- Enlaces de navegación -->
-            <div style="display: flex; justify-content: center; align-items: center; gap: 18px; flex-wrap: wrap; margin-top: 24px;">
-                <a href="#inicio" style="text-decoration: none; color: black; font-weight: 600;">Inicio</a>
-
-                <a href="#nosotros" style="text-decoration: none; color: black; font-weight: 600;">Sobre nosotros</a>
-
-                <a href="#servicios" style="text-decoration: none; color: black; font-weight: 600;">Servicios</a>
-
-                <a href="#contacto" style="text-decoration: none; color: black; font-weight: 600;">Contacto</a>
-
-                <a href="#login" style="text-decoration: none; color: black; font-weight: 600;">Iniciar sesión</a>
-
-                <a href="#sitios-interes" style="text-decoration: none; color: black; font-weight: 600;">Sitios de interés</a>
-            </div>
-
-        </section>
     </main>
+    <!-- Pie de página -->
+    <footer style="padding: 40px 20px 30px; background-color: #f3f7f8; text-align: center; border-top: 1px solid #d7e1e4;">
+        <!-- Logo igual al del header -->
+        <div style="display: flex; align-items: center; justify-content: center; gap: 5px; margin-bottom: 10px;">
+            <span style="font-size: 23px;">🎬</span>
+            <span style="font-size: 23px; font-weight: bold;">VIDEO PROD.</span>
+        </div>
+        <p style="margin: 0; font-size: 14px; color: #333;">
+            &copy Todos los derechos reservados.
+        </p>
+        <!-- Enlaces de navegación -->
+        <nav style="display: flex; justify-content: center; gap: 20px;">
+            <ul>
+                <li style="list-style: none;"><a href="#inicio" style="text-decoration: none; color: black; font-weight: 600;">Inicio</a></li>
+                <li style="list-style: none;"><a href="#nosotros" style="text-decoration: none; color: black; font-weight: 600;">Sobre nosotros</a></li>
+                <li style="list-style: none;"><a href="#servicios" style="text-decoration: none; color: black; font-weight: 600;">Servicios</a></li>
+            </ul>
+            <ul>
+                <li style="list-style: none;"><a href="#contacto" style="text-decoration: none; color: black; font-weight: 600;">Contacto</a></li>
+                <li style="list-style: none;"><a href="#login" style="text-decoration: none; color: black; font-weight: 600;">Iniciar sesión</a></li>
+                <li style="list-style: none;"><a href="#sitios-interes" style="text-decoration: none; color: black; font-weight: 600;">Sitios de interés</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
